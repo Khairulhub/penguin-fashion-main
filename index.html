@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -38,13 +39,13 @@
                 </div>
               </nav>
               <div class="row">
-                  <div class="col-12 col-md-6 col-lg-6 m-auto">
+                  <div class="col-12 col-md-6 col-lg-6 m-auto" data-aos="fade-right"  data-aos-offset="300"  data-aos-easing="ease-in-sine">
                       <h1 class="h1 fw-bold display-2 mt-5 mb-4"><span class="text-color">Be the Penguins</span><br>  <span class="text-color-1">of Winter</span></h1>
                       <p class="px-5">Lorem Ipsum is simply dummy text of the printing 
                         and typesetting industry.</p>
                         <button type="button" class="btn btn-color px-5 py-2 mx-5 rounded"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                   </div>
-                  <div class="col-12 col-md-6 col-lg-6">
+                  <div class="col-12 col-md-6 col-lg-6 my-5" data-aos="fade-up" data-aos-duration="3000">
                       <img src="images/model.png" class="img-fluid" alt="">
                   </div>
               </div>
@@ -52,8 +53,8 @@
     </header>
     <main>
         <section class="container my-5">
-            <h2 class="text-color-1 my-4">W0Man Jacket</h2>
-            <div class="row">
+            <h2 class="text-color-1 my-4" data-aos="fade-up">W0Man Jacket</h2>
+            <div class="row"data-aos="zoom-in">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="card p-2 shadow-sm my-2">
                         <img src="images/jacket-1.png" class="img-fluid bg-light m-auto  rounded p-2" alt="...">
@@ -98,9 +99,9 @@
                 </div>
             </div>
         </section>
-        <section class="container my-5">
+        <section class="container my-5"data-aos="fade-up" data-aos-duration="3000">
             <h2 class="text-color-1 my-4">Man Jacket</h2>
-            <div class="row">
+            <div class="row"data-aos="zoom-in" data-aos-offset="500">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="card p-2 shadow-sm my-2">
                         <img src="images/jacket-5.png" class="img-fluid bg-light m-auto  rounded p-2" alt="...">
@@ -145,11 +146,56 @@
                 </div>
             </div>
         </section>
-       
+      
     </main>
-
+<footer>
+  <section class="container">
+       <div class="row">
+         <div class="col-lg-6 col-md-6 col-12 px-3">
+           <div class="row shadow my-3 "data-aos="zoom-out-right">
+             <div class="col-lg-3 col-md-3 col-12 ">
+               <img src="icons/image 12.png" class="img-fluid d-sm-flex justify-content-center align-items-center text-center"  alt="">
+              </div>
+             <div class="col-lg-9 col-md-9 col-12 m-auto">
+               <h2>Find the Perfect Fit</h2>
+               <p>Everybody is different, which is why we
+                offer styles for every body.</p>
+             </div>
+           </div>
+           <div class="row shadow my-3 ">
+             <div class="col-lg-3 col-md-3 col-12 "data-aos="zoom-out-left">
+               <img src="icons/image 12.png" class="img-fluid d-sm-flex justify-content-center align-items-center text-center"  alt="">
+              </div>
+             <div class="col-lg-9 col-md-9 col-12 m-auto">
+               <h2>Find the Perfect Fit</h2>
+               <p>Everybody is different, which is why we
+                offer styles for every body.</p>
+             </div>
+           </div>
+           <div class="row shadow my-3 ">
+             <div class="col-lg-3 col-md-3 col-12 "data-aos="zoom-out-up">
+               <img src="icons/image 12.png" class="img-fluid d-sm-flex justify-content-center align-items-center text-center"  alt="">
+              </div>
+             <div class="col-lg-9 col-md-9 col-12 m-auto">
+               <h2>Find the Perfect Fit</h2>
+               <p>Everybody is different, which is why we
+                offer styles for every body.</p>
+             </div>
+           </div>
+        
+         </div>
+         <div class="col-lg-6 col-md-6 col-12 px-3 my-3"data-aos="zoom-out">
+           <img src="images/shopping.png" class="img-fluid" alt="">
+         </div>
+       </div>  
+  </section>
+</footer>
 
     <script src="https://kit.fontawesome.com/a8f032192b.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
